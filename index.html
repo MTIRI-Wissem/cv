@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="C:\Users\Wissem\Desktop\Web_Dev\HTML - Personal Site\img\Round_B.png">
+  <meta name="viewport" content="user-scalable=0">
+  <title>Ꮗissem ᗰtiri</title>
+</head>
+
+<body>
+  <!--
+          headings :
+            <h1>Biggest</h1>
+            <h2></h2>
+            <h3></h3>
+            <h4></h4>
+            <h5></h5>
+            <h6>Smallest</h6>
+
+          self-closing tags :
+            <br>
+            <hr>
+          Attributes :
+            <tag Attribute = "value">
+            Attributes examples :
+              for hr :
+                size : defines thickness (height in pixels)
+                noshade : dosen't shade the line(no value)
+                width : (value in pixels)
+                align : position(value = {center, left, right})
+          align tags :
+            <center></center>
+        ****************************************************************************
+          Head :
+            <title></title> : give your web page a title
+            <meta> : self-closing tag : gives extra metadata about your website
+                attributes :
+                    charset : character set : value set to UTF-8 , Unicode ...  ==> VISIT : unicode-table.com , you can find emojis
+                    name="Name" content="Value" : to declare a new meta
+                        examples :
+                            name="Author" content="Foulen" : gives an information about the author of the website
+                            name="Description" content="Description" : gives Description about your website
+                            name="Keywords" content="Key1,Key2..." : gives major keywords to mention in your website
+                                  ==> utility : help search engines to find your website faster due to faster crawling
+                            name="viewport" content="width-device-width, initial-scale = 1.0" : sets the width of your webpage to the device screen width with an initial scale = 1.0
+                    http-equiv :
+                        refresh : content="n" avec n entier positif : indiquant le nbr de secondes a attendre avant de refesh la page
+                                  content="n,url:url.com" : attendre n secondes avant de rediriger l'utilisateur vers une page avec l'url indiqué
+
+        -->
+  <!--
+    we can use tables to set a layout as for the example below with the help of the cellpadding attribute that creates space between table cells
+  -->
+  <table cellspacing="20">
+    <tr>
+      <td><img src="img\Wissem-modified.png" alt="Wissem Profile Picture"></td>
+      <td>
+        <h1>MTIRI WISSEM</h1>
+        <p><em>Student at <strong>National Institut of Applied Sciences and Technologies</strong>.</em></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate neque vitae turpis venenatis feugiat. In pretium commodo tristique.
+          Proin efficitur scelerisque massa, et eleifend est condimentum nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <!--
+      Upload your photo in photobucket.com
+      crop your images circularly using : crop-circle.imageonline.co
+  -->
+
+  <hr size="3" noshade>
+  <h3>Education</h3>
+  <ul>
+    <li>Ecole primaire <strong><a href="https://www.facebook.com/Ecole-Salah-Azaiez-Soliman-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%B5%D8%A7%D9%84%D8%AD-%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A8%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86-411628129046254/">Salah
+          Azaiez</a></strong></li>
+    <li>Lycée secondaire <strong><a href="https://lyceesecondairesoliman.wordpress.com/">Rue de la Plage Soliman</a></strong></li>
+    <li>Institut Nationale des Sciences Appliquées et Technologie <strong><a href="http://www.insat.rnu.tn/Fr/accueil_46_34">(INSAT)</a></strong></li>
+  </ul>
+  <hr size="3" noshade>
+  <h3>Skills</h3>
+  <table cellpadding="20">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Design</td>
+            <td>★★★★☆</td>
+          </tr>
+          <tr>
+            <td>Architectural Design</td>
+            <td>★★★☆☆</td>
+          </tr>
+          <tr>
+            <td>Sketching</td>
+            <td>★★★☆☆</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>CyberSecurity</td>
+            <td>★★★☆☆</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>★★★☆☆</td>
+          </tr>
+          <tr>
+            <td>Problem Solving</td>
+            <td>★★★★☆</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!--
+    lists are two types :
+      ordered <ol> </ol>:
+        list elements <li></li> are tagged with Numbers, Roman Numbers, Letters...
+        ==> which can be changed with the type attribute
+      unordered <ul> </ul> :
+        list elements are tagged with something abstract : circles, squares ...
+  -->
+  <hr size="3" noshade>
+  <h3>Experience</h3>
+  <table cellpadding="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2017</td>
+        <td>GMCx Marketing Manager</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>JCI Soliman Media Manager</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>IEEE IAS INSAT Media Manager</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr size="3" noshade>
+  <h3>Hobbies</h3>
+  <ol>
+    <li>Drawing and sketching</li>
+    <ul>
+      <li>Hyperrealistic Portrait Drawing</li>
+      <li>Architectural Design</li>
+      <li>Graphic Design</li>
+    </ul>
+    <li>BasketBall</li>
+    <li>Development</li>
+    <ul>
+      <li>Web Development</li>
+      <li>Competitive Programming</li>
+    </ul>
+    <li>CyberSecurity</li>
+    <ul>
+      <li>Web Vulnerabilities</li>
+      <li>Reverse Engineering</li>
+      <li>Cryptography</li>
+    </ul>
+  </ol>
+  <footer>
+    <a href="Contact.htm">Contact</a>
+  </footer>
+</body>
+
+</html>
